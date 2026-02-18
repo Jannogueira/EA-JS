@@ -16,7 +16,7 @@ const studentNames2 = students.map((student) => {
 });
 
 // An array of JSON objects with students doubled age using arrow function
-const doubleAges = students.map((student) => student.age).map((age) => age * 2);
+const doubleAges = students.map((student) => student.age * 2);
 console.log(doubleAges);
 
 // An array of student JSON objects adding a course
@@ -25,4 +25,3 @@ const courseProgramming = students.map((student) => ({
     course: "Programming",
 }));
 console.log(courseProgramming);
-
