@@ -13,5 +13,4 @@ console.log(total2);
 const result = students.reduce(function (allSkills, student) {
   return Array.from(new Set([...allSkills, student.course]));
 }, []);
-
 console.log(result); 

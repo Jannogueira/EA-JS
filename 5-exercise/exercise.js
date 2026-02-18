@@ -38,5 +38,4 @@ fetch('https://jsonplaceholder.typicode.com/users/')
       // 4. Reduce to count total characters in names
       const total = conjan.reduce((suma, nombre) => suma + nombre.name.replace(/\s+/g, '').length, 0)  ;
       console.log("Suma de los caracteres en los nombres " +total); 
-
   });
