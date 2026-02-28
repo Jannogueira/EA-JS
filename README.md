@@ -1,4 +1,4 @@
-# EA-JS
+# EA-JS Jan Nogueira sin uso de IA
 
 ## Requisitos Previos
 
